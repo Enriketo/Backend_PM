@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const PatientsService = require('../services/patients');
-const { idSchema, createPatientSchema, updatePatientSchema } = require('../utils/schemas/online');
+const { idSchema, createPatientSchema, updatePatientSchema } = require('../utils/schemas/patients');
 const validationHandler = require('../utils/middleware/validationHandler');
 
 function PatientsApi(app) {
